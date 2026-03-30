@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --breakpoint-xxl: 1400px;
+  --color-background: #02050a;
+  --color-foreground: #ffffff;
+  --color-primary: #298CF6;
+  --color-secondary: #ff4e98;
+  --color-accent1: #44c4ff;
+  --color-accent2: #0b0e11;
+  --color-accent4: #2b3139;
+  --color-accent5: #181a20;
+  --color-accent6: #1e2329;
+  --color-neutral1: #ffffff;
+  --color-neutral4: #848e9c;
+
+  --animate-slow-rotate: spin 10s linear infinite;
+  --animate-slow-rotate-reverse: spin-reverse 10s linear infinite;
+  --animate-bounce-soft: bounceSoft 2s infinite;
+  --animate-updown: updown 4s ease-in-out infinite;
+  --animate-marquee-left: marquee-left 20s linear infinite;
+  --animate-marquee-right: marquee-right 20s linear infinite;
+
+  @keyframes spin-reverse {
+    0% {
+      transform: rotate(360deg);
+    }
+
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+
+  @keyframes marquee-left {
+    0% {
+      transform: translateX(0);
+    }
+
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  @keyframes marquee-right {
+    0% {
+      transform: translateX(-50%);
+    }
+
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes updown {
+
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+
+  @keyframes bounceSoft {
+
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+}
+
+:root {
+  --background: #02050a;
+  --foreground: #ffffff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: 'Outfit', sans-serif;
+  overflow-x: hidden;
+}
+
+button {
+  cursor: pointer;
+}
+
+.h2,
+h2 {
+  font-size: 1.875rem;
+  font-weight: 700;
+  line-height: 2.25rem;
+}
+
+.h3,
+h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2rem;
+}
+
+.h4,
+h4 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.75rem;
+}
+
+.display-4 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+}
+
+@media (min-width: 1024px) {
+  .display-4 {
+    font-size: 3rem;
+    line-height: 1.2;
+  }
+}
+
+.f-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pt-120 {
+  padding-top: 3rem;
+}
+
+.pb-120 {
+  padding-bottom: 3rem;
+}
+
+@media (min-width: 1024px) {
+  .pt-120 {
+    padding-top: 7.5rem;
+  }
+
+  .pb-120 {
+    padding-bottom: 7.5rem;
+  }
+}
