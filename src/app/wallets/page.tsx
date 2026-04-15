@@ -9,6 +9,8 @@ const WALLETS = [
   { name: "Trust Wallet", src: "/assets2/images/wallets/trustwallet.jpeg" },
   { name: "Exodus Wallet",  src: "/assets2/images/wallets/exodus.jpeg" },
   { name: "Aculus Wallet", src: "/assets2/images/wallets/aculus.png" },
+  { name: "Tangem Wallet", src: "/assets2/images/wallets/Tangem.png" },
+  { name: "Ledger Nano X Wallet", src: "/assets2/images/wallets/LedgerNanoX.png" },
   { name: "IOGO", src: "/assets2/images/wallets/iogo.jpeg" },
   { name: "WalletConnect", src: "/assets2/images/walletconnect.png" },
   { name: "Coinbase", src: "/assets2/images/coinbase.png" },
