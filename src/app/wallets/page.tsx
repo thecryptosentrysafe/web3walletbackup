@@ -8,7 +8,7 @@ import WalletInfoModal from "@/components/WalletInfoModal";
 const WALLETS = [
   { name: "Trust Wallet", src: "/assets2/images/wallets/trustwallet.jpeg" },
   { name: "Exodus Wallet",  src: "/assets2/images/wallets/exodus.jpeg" },
-  { name: "Aculus Wallet", src: "/assets2/images/wallets/aculus.png" },
+  { name: "Arculus Wallet", src: "/assets2/images/wallets/aculus.png" },
   { name: "Tangem Wallet", src: "/assets2/images/wallets/Tangem.png" },
   { name: "Ledger Nano X Wallet", src: "/assets2/images/wallets/LedgerNanoX.png" },
   { name: "IOGO", src: "/assets2/images/wallets/iogo.jpeg" },
