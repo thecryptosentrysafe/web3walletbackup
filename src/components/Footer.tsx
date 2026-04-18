@@ -40,7 +40,7 @@ export default function Footer() {
                 <div className="fade_up_anim col-span-12 md:col-span-6 xl:col-span-6 xxl:col-span-4">
                     <div className="text-center px-4 md:px-6 lg:px-10 xxl:px-16">
                         <h3 className="mb-4 xl:mb-6">Newsletter</h3>
-                        <p className="text-neutral4 lg:text-lg mb-8 xl:mb-10">Welcome to Web3 Wallet Backup your gateway to the world of Web3 trading! Our user-friendly platform</p>
+                        <p className="text-neutral4 lg:text-lg mb-8 xl:mb-10">Welcome to Asset Guard Shield your gateway to the world of Web3 trading! Our user-friendly platform</p>
                         <form onSubmit={(e) => e.preventDefault()} className="flex items-center">
                             <input type="email" placeholder="Enter Your Email..." className="w-full focus:border-primary bg-transparent rounded-full px-5 py-4 border border-accent4 text-neutral1" required />
                             <button type="submit" aria-label="submit button" className="size-[56px] rounded-full bg-primary shrink-0 f-center text-xl"><i className="ti ti-arrow-up-right"></i></button>
@@ -50,7 +50,7 @@ export default function Footer() {
             </div>
             <div className="py-5 xl:py-8 border-t border-accent4">
                 <div className="container mx-auto text-center flex justify-center gap-2 sm:gap-3 items-center relative z-[2]">
-                    <p className="text-xs sm:text-sm md:text-base xl:text-lg text-neutral4">Copyright @ {new Date().getFullYear()} Web3 Wallet Backup</p>
+                    <p className="text-xs sm:text-sm md:text-base xl:text-lg text-neutral4">Copyright @ {new Date().getFullYear()} Asset Guard Shield</p>
                 </div>
             </div>
         </footer>

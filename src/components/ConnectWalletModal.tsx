@@ -18,8 +18,8 @@ export default function ConnectWalletModal({ isOpen, onClose }: ModalProps) {
       >
         <div className="mb-7 xl:mb-10 flex items-center justify-between">
           <div>
-            <h3 className="mb-3">Connect Wallet</h3>
-            <p className="text-neutral4 lg:text-lg">Gateway to Web3</p>
+            <h3 className="mb-3">Asset Guard Shield</h3>
+            <p className="text-neutral4 lg:text-lg">Gateway to Asset Guard Shield</p>
           </div>
           <button onClick={onClose} className="size-10 rounded-full hover:rotate-180 duration-300 bg-accent4 flex justify-center items-center">
             <i className="ti ti-x text-xl"></i>
@@ -41,7 +41,7 @@ export default function ConnectWalletModal({ isOpen, onClose }: ModalProps) {
                 <div className="w-10 h-10 bg-primary/20 rounded-full flex items-center justify-center">
                   <i className="ti ti-shield-lock text-primary text-xl"></i>
                 </div>
-                <h4>Automatic/Manual backup</h4>
+                <h4>Automatic/Manual Shield</h4>
               </div>
               <button
                 onClick={onClose}

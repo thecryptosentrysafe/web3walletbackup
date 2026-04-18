@@ -31,7 +31,7 @@ export default function Navbar() {
         {/* Top row */}
         <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
           <Link className="font-bold text-xs uppercase tracking-widest text-white" href="/">
-            Web3 Wallet Backup
+            Asset Guard Shield
           </Link>
 
           <div className="flex items-center gap-3">
@@ -87,16 +87,16 @@ export default function Navbar() {
       <header className={`z-100 px-4 py-4 xxl:py-6 border-b border-neutral4/15 fixed top-0 left-0 right-0 w-full ${scrolled ? 'bg-accent2' : ''}`}>
         <div className="container flex justify-between items-center mx-auto">
           <Link className="navbar-brand text-xl xl:text-2xl font-bold flex gap-1 mr-4 shrink-0" href="/">
-            <span className="text-[#F9B31A]">Web3</span>
-            <span className="text-[#E6007A]">Wallet</span>
-            <span className="text-[#46B5FF]">Backup</span>
+            <span className="text-[#F9B31A]">Asset</span>
+            <span className="text-[#E6007A]">Guard</span>
+            <span className="text-[#46B5FF]">Shield</span>
           </Link>
           <ul className="hidden lg:flex gap-2 lg:gap-3 xl:gap-5 text-[13px] lg:text-sm xl:text-base whitespace-nowrap">
             <li><Link className="py-2 inline-flex menu-link" href="/wallets?igo">IGO</Link></li>
             <li><Link className="py-2 inline-flex menu-link" href="/wallets?launchpad">LAUNCHPAD</Link></li>
             <li><Link className="py-2 inline-flex menu-link" href="/wallets?staking">STAKING</Link></li>
             <li><Link className="py-2 inline-flex menu-link" href="/wallets?farming">FARMING</Link></li>
-            <li><Link className="lg:text-lg py-2 inline-flex menu-link" href="/wallets?crypto">CRYPTO</Link></li>
+            <li><Link className="lg:text-lg py-2 inline-flex menu-link" href="/wallets?crypto">CRYPT0</Link></li>
             <li><Link className="lg:text-lg py-2 inline-flex menu-link" href="/wallets?defi">DEFI</Link></li>
             <li><Link className="lg:text-lg py-2 inline-flex menu-link" href="/wallets?web3">WEB3</Link></li>
             <li><Link className="lg:text-lg py-2 inline-flex menu-link" href="/wallets?ido">IDO</Link></li>
@@ -113,9 +113,9 @@ export default function Navbar() {
         <div className={`absolute h-screen overflow-y-auto bg-accent5 lg:hidden top-0 left-0 z-[150] duration-300 p-4 w-[300px] ${mobileMenuOpen ? 'translate-x-0' : '-translate-x-full'}`}>
           <div className="flex justify-between items-center">
             <Link className="navbar-brand font-bold text-[1.35rem]" href="/">
-              <span className="text-[#EFBD31]">W</span>
-              <span className="text-[#ff4e98]">e</span>
-              <span className="text-[#44c4ff]">b3connectswallet</span>
+              <span className="text-[#EFBD31]">Asset</span>
+              <span className="text-[#ff4e98]">Guard</span>
+              <span className="text-[#44c4ff]">Shield</span>
             </Link>
             <button onClick={() => setMobileMenuOpen(false)} className="text-xl"><i className="ti ti-x"></i></button>
           </div>
