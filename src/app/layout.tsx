@@ -4,8 +4,8 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Web3 Wallet Backup",
-  description: "Gateway to Encrypt, back up, and secure your assets. The easiest, safest, and fastest way to secure & back up crypto asset.",
+  title: "Asset Guard Shield",
+  description: "Gateway to Encrypt, Guard, and shield your assets. The easiest, safest, and fastest way to secure your assets.",
 };
 
 export default function RootLayout({

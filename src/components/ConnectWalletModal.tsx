@@ -31,7 +31,7 @@ export default function ConnectWalletModal({ isOpen, onClose }: ModalProps) {
             <button
               className="col-span-1 border-b py-1.5 text-base md:text-lg xl:text-2xl font-medium border-secondary"
             >
-              Backup Wallet
+              Start Guarding Assets
             </button>
           </div>
 

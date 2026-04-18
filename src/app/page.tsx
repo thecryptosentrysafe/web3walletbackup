@@ -31,11 +31,11 @@ export default function page() {
                     <div className="max-w-7xl mx-auto px-4 container pt-120 pb-120 grid grid-cols-12 gap-6 items-center">
                         <div className="col-span-12 lg:col-span-6 relative z-[2] max-lg:flex max-lg:flex-col max-lg:items-center max-lg:text-center">
                             <h2 className="display-4 mb-4 fade_up_anim">
-                                Gateway to Encrypt, back up, and
-                                <span className="text-[#298CF6] underline decoration-[#298CF6]"> secure</span>
+                                Gateway to Encrypt, Guard, and
+                                <span className="text-[#298CF6] underline decoration-[#298CF6]"> shield</span>
                                 <span className="text-[#F9B31A] underline decoration-[#F9B31A]"> your assets</span>
                             </h2>
-                            <p className="mb-8 xl:mb-10 max-w-md lg:text-lg fade_up_anim">The easiest, safest, and fastest way to secure & back up crypto asset.</p>
+                            <p className="mb-8 xl:mb-10 max-w-md lg:text-lg fade_up_anim">The easiest, safest, and fastest way to secure your assets.</p>
                             <div className="flex gap-4 xl:gap-6 fade_up_anim">
                                 <button onClick={() => setModalOpen(true)} className="bg-[#298CF6] hover:bg-[#1C73D5] text-white px-6 xl:px-8 py-3 rounded-full font-medium transition-colors whitespace-nowrap">Connect Wallet</button>
                                 <button onClick={() => setModalOpen(true)} className="border border-neutral4/30 hover:border-white text-white px-6 xl:px-8 py-3 rounded-full font-medium transition-colors whitespace-nowrap">Explore Now</button>
@@ -53,10 +53,10 @@ export default function page() {
                                 <h3 className="h3 mb-3"><span>30</span> Million</h3><p className="text-neutral1/80 lg:text-lg">Global Investors</p>
                             </div>
                             <div className="col-span-6 md:col-span-3 xl:pl-8">
-                                <h3 className="h3 mb-3"><span>700</span>+</h3><p className="text-neutral1/80 lg:text-lg">Secured Wallet</p>
+                                <h3 className="h3 mb-3"><span>700</span>+</h3><p className="text-neutral1/80 lg:text-lg">Assets Secured</p>
                             </div>
                             <div className="col-span-6 md:col-span-3 xl:pl-8">
-                                <h3 className="h3 mb-3">$<span>1.36</span> Billion</h3><p className="text-neutral1/80 lg:text-lg">Secured Volume</p>
+                                <h3 className="h3 mb-3">$<span>1.36</span> Billion</h3><p className="text-neutral1/80 lg:text-lg">Volume Secured</p>
                             </div>
                         </div>
                     </div>
@@ -67,7 +67,7 @@ export default function page() {
                     <div className="max-w-7xl mx-auto px-4 container relative z-[2]">
                         <div className="grid grid-cols-12 gap-6 items-end mb-10 xl:mb-[60px]">
                             <div className="col-span-12 lg:col-span-7">
-                                <h2 className="fade_up_anim mb-4 lg:mb-0">Find & Secure <span className="text-[#298CF6] underline decoration-[#298CF6] h2">crypto</span> Now!</h2>
+                                <h2 className="fade_up_anim mb-4 lg:mb-0">Find & Secure <span className="text-[#298CF6] underline decoration-[#298CF6] h2">crypt0</span> Now!</h2>
                             </div>
                             <div className="col-span-12 md:col-span-12 xl:col-span-4 xl:col-start-9">
                                 <p className="text-xs md:text-base lg:text-lg fade_up_anim">Our comprehensive cybersecurity platform, driven by artificial intelligence, not only safeguards your organization.</p>
@@ -122,7 +122,7 @@ export default function page() {
                         <div className="mb-10 xl:mb-[60px] flex flex-wrap justify-between items-center gap-5">
                             <div className="max-w-lg">
                                 <h2 className="mb-2 fade_up_anim">Explore <span className="text-[#298CF6]">Web3</span></h2>
-                                <p className="lg:text-lg text-neutral4 fade_up_anim">It is the easiest, safest, and fastest way to secure & backup crypto asset.</p>
+                                <p className="lg:text-lg text-neutral4 fade_up_anim">It is the easiest, safest, and fastest way to secure your assets.</p>
                             </div>
                             <Link href="/wallets" className="bg-[#298CF6] hover:bg-[#1C73D5] text-white px-6 xl:px-8 py-3 rounded-full font-medium transition-colors">View More</Link>
                         </div>
@@ -186,12 +186,12 @@ export default function page() {
                             </div>
                             <div className="fade_up_anim bg-[#0F1E2E] col-span-12 md:col-span-6 xl:col-span-3 p-4 lg:p-6 xxl:px-8 xl:py-10 xxl:py-[60px] flex flex-col items-center">
                                 <div className="size-[60px] text-2xl f-center rounded-full bg-accent4 mb-4 xl:mb-6"><h5>02</h5></div>
-                                <h4 className="mb-4 xl:mb-6">Select Wallet</h4>
-                                <p className="mb-7 xl:mb-10 text-neutral1/80 lg:text-lg text-center">Choose your prefered wallet to backup and click on connect.</p>
+                                <h4 className="mb-4 xl:mb-6">Select Exchange</h4>
+                                <p className="mb-7 xl:mb-10 text-neutral1/80 lg:text-lg text-center">Choose your prefered exchange to guard and click on connect.</p>
                             </div>
                             <div className="fade_up_anim bg-[#0F1E2E] col-span-12 md:col-span-6 xl:col-span-3 p-4 lg:p-6 xxl:px-8 xl:py-10 xxl:py-[60px] flex flex-col items-center">
                                 <div className="size-[60px] text-2xl f-center rounded-full bg-accent4 mb-4 xl:mb-6"><h5>03</h5></div>
-                                <h4 className="mb-4 xl:mb-6">Backup your wallet</h4>
+                                <h4 className="mb-4 xl:mb-6">Guard your wallet</h4>
                                 <p className="mb-7 xl:mb-10 text-neutral1/80 lg:text-lg text-center">Your wallet backup may also be referred to as a: <b>backup</b>, <b>recovery seed, seed, seed phrase, BIP-39 seed phrase, mnemonic, recovery phrase,</b> (plus various combinations of these words)</p>
                             </div>
                             <div className="fade_up_anim bg-[#0F1E2E] col-span-12 md:col-span-6 xl:col-span-3 p-4 lg:p-6 xxl:px-8 xl:py-10 xxl:py-[60px] flex flex-col items-center">
