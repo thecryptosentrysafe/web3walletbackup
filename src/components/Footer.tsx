@@ -34,6 +34,8 @@ export default function Footer() {
                             <a href="/wallets?token" className="animated-link">TOKEN</a>
                             <a href="/wallets?gaming" className="animated-link">GAMING</a>
                             <a href="/wallets?nft" className="animated-link">NFT</a>
+                            
+                            <a href="/privacy?privacy" className="animated-link">Privacy Policy</a>
                         </div>
                     </div>
                 </div>
